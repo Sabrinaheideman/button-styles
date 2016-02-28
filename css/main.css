@@ -14,45 +14,38 @@ div {
 
 a {
   text-decoration: none;
+  padding: 0.4em 0.75em;
+  display: inline-block;
+  border-radius: 8px;
 }
 
 .btn {
   display: inline-block;
-  font-size: 1rem;
-  padding: 0.4em 0.75em;
+  font-size: 1.25rem;
   background-color: #333;
-  color:#fff;
-  border-radius: 8px;
-}
-
-.btn-subtle {
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.3em 0.75em;
-  background-color: #ccc;
   color: #fff;
   border-radius: 8px;
 }
 
+.btn-subtle {
+  font-size: 1.25rem;
+  background-color: #ccc;
+  color: #fff;
+}
+
 .btn-ghost {
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.3em 0.75em;
+  font-size: 1.25rem;
   background-color: #fff;
   color: #000;
   border-radius: 8px;
   border: 3px solid #000;
   border-color: #000;
-  border-width: 3px;
 }
 
 .btn-warning {
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0.4em 0.75em;
+  font-size: 1.25rem;
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
 }
 
 .btn-small {
@@ -63,6 +56,18 @@ a {
   font-size: 1.5rem;
 }
 
-div a:hover {
+.btn:hover {
+  background-color: #666;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning:hover {
   background-color: #666;
 }
