@@ -19,6 +19,10 @@ a {
   border-radius: 8px;
 }
 
+nav ul li:nth-child(3n+9) {
+  border: 3px solid #000;
+}
+
 .btn {
   display: inline-block;
   font-size: 1.25rem;
@@ -37,8 +41,6 @@ a {
   font-size: 1.25rem;
   background-color: #fff;
   color: #000;
-  border-radius: 8px;
-  border: 3px solid #000;
   border-color: #000;
 }
 
